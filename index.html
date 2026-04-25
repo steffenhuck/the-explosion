@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Explosion</title>
+  <script data-goatcounter="https://steffenhuck.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300;1,8..60,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f5f2ec;
+      --text: #1a1a1a;
+      --muted: #5a5a5a;
+      --accent: #c0392b;
+      --max-width: 820px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 22px;
+      line-height: 1.42;
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 48px 28px 72px;
+    }
+
+    .title {
+      text-align: center;
+      font-family: 'Bangers', cursive;
+      font-size: clamp(3.6rem, 8vw, 6rem);
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin: 0 0 8px 0;
+      line-height: 1;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-family: 'Bangers', cursive;
+      font-size: 1.8rem;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 0 0 6px 0;
+    }
+
+    .sub-subtitle {
+      text-align: center;
+      font-family: 'Bangers', cursive;
+      font-size: 1.3rem;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      opacity: 0.7;
+      margin: 0 0 32px 0;
+    }
+
+    .cast {
+      text-align: center;
+      margin-bottom: 36px;
+    }
+
+    .cast-title {
+      font-family: 'Bangers', cursive;
+      font-size: 1.3rem;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .cast-list {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--muted);
+    }
+
+    .boom-wrap {
+      text-align: center;
+      margin: 4px auto 48px;
+    }
+
+    .boom-wrap img {
+      width: 300px;
+      max-width: 75%;
+      display: inline-block;
+    }
+
+    .scene {
+      font-family: 'Bangers', cursive;
+      font-size: 1.4rem;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      margin: 52px 0 18px 0;
+    }
+
+    .stage {
+      font-style: italic;
+      color: var(--muted);
+      font-size: 0.95em;
+      margin: 0 0 14px 0;
+      line-height: 1.6;
+    }
+
+    .line + .stage {
+      margin-top: -4px;
+    }
+
+    .stage + .speaker {
+      margin-top: 8px;
+    }
+
+    .speaker {
+      font-family: 'Bangers', cursive;
+      font-size: 1.3rem;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+      margin: 0 0 4px 0;
+    }
+
+    .line {
+      margin: 0 0 14px 1.8em;
+      line-height: 1.55;
+    }
+
+    .signature {
+      text-align: center;
+      margin-top: 72px;
+      font-family: 'Source Serif 4', serif;
+      font-size: 0.9rem;
+      letter-spacing: 0.2em;
+    }
+
+    .signature a {
+      text-decoration: none;
+      color: var(--muted);
+      transition: color 0.2s;
+    }
+
+    .signature a:hover {
+      color: var(--accent);
+    }
+
+    @media (max-width: 600px) {
+      body { font-size: 19px; }
+      .container { padding: 32px 20px 56px; }
+      .boom-wrap img { width: 220px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1 class="title">The Explosion</h1>
+    <div class="subtitle">A Play</div>
+    <div class="sub-subtitle">in Five Short Scenes</div>
+
+    <div class="cast">
+      <div class="cast-title">Cast</div>
+      <div class="cast-list">
+        The Instructor &nbsp;·&nbsp; The Director &nbsp;·&nbsp; The Swiss Officer<br>
+        The New Student &nbsp;·&nbsp; The First Student
+      </div>
+    </div>
+
+    <div class="boom-wrap">
+      <img src="boom.png" alt="BOOM!">
+    </div>
+
+    <div class="scene">Scene One</div>
+
+    <p class="stage">(A classroom at the Institute for the Advancement of Dictatorships. The students sit at their desks. An exam is in progress. Silence, broken only by the scratching of pens. The Instructor stands at the front, looking out of the window at the lake.)</p>
+
+    <p class="stage">(Suddenly, there is an explosion.)</p>
+
+    <p class="stage">(A brief, absolute silence. Then dust. A window has shattered. The students look up from their papers.)</p>
+
+    <div class="speaker">The Instructor</div>
+    <div class="line">
+      <p><em>(without turning from the window)</em></p>
+      <p>You may continue.</p>
+    </div>
+
+    <p class="stage">(The students look at one another. Then they lower their heads and continue.)</p>
+
+    <div class="scene">Scene Two</div>
+
+    <p class="stage">(The Director's office. The Director sits behind his desk. The Instructor stands opposite. Between them, a tray with two cups of coffee.)</p>
+
+    <div class="speaker">The Director</div>
+    <div class="line">How much damage?</div>
+
+    <div class="speaker">The Instructor</div>
+    <div class="line">The north wall. Some windows. A door.</div>
+
+    <div class="speaker">The Director</div>
+    <div class="line">The students?</div>
+
+    <div class="speaker">The Instructor</div>
+    <div class="line">Unharmed.</div>
+
+    <div class="speaker">The Director</div>
+    <div class="line">Napoleon?</div>
+
+    <div class="speaker">The Instructor</div>
+    <div class="line">He slept through it.</div>
+
+    <p class="stage">(The Director picks up his coffee.)</p>
+
+    <div class="speaker">The Director</div>
+    <div class="line">Good. I would hate for him to be disturbed.</div>
+
+    <p class="stage">(A pause.)</p>
+
+    <div class="speaker">The Director</div>
+    <div class="line">The Swiss will want to be involved.</div>
+
+    <div class="speaker">The Instructor</div>
+    <div class="line">They already are.</div>
+
+    <div class="speaker">The Director</div>
+    <div class="line">Of course they are.</div>
+
+    <p class="stage">(He sets down his cup.)</p>
+
+    <div class="speaker">The Director</div>
+    <div class="line">Let them do their work.</div>
+
+    <div class="scene">Scene Three</div>
+
+    <p class="stage">(A reception room at the Institute. The Director sits. Across from him, a Swiss Officer in a neat uniform.)</p>
+
+    <div class="speaker">The Swiss Officer</div>
+    <div class="line">
+      <p>We have apprehended two individuals. A man and a woman. They were found in possession of materials consistent with the device.</p>
+      <p>Fingerprints have been taken. Statements recorded.</p>
+      <p>The file is complete.</p>
+    </div>
+
+    <p class="stage">(He places a folder on the table.)</p>
+
+    <div class="speaker">The Swiss Officer</div>
+    <div class="line">You will find everything in order.</div>
+
+    <div class="speaker">The Director</div>
+    <div class="line">I am sure we will.</div>
+
+    <div class="speaker">The Swiss Officer</div>
+    <div class="line">There is the question of jurisdiction.</div>
+
+    <div class="speaker">The Director</div>
+    <div class="line">Yes.</div>
+
+    <div class="speaker">The Swiss Officer</div>
+    <div class="line">The incident occurred on your premises.</div>
+
+    <div class="speaker">The Director</div>
+    <div class="line">It did.</div>
+
+    <p class="stage">(A pause.)</p>
+
+    <div class="speaker">The Swiss Officer</div>
+    <div class="line">We are satisfied that the matter can be resolved internally.</div>
+
+    <div class="speaker">The Director</div>
+    <div class="line">How very reasonable of you.</div>
+
+    <p class="stage">(The Swiss Officer rises. They shake hands.)</p>
+
+    <div class="speaker">The Swiss Officer</div>
+    <div class="line">Switzerland values its institutions.</div>
+
+    <div class="speaker">The Director</div>
+    <div class="line">As we do Switzerland.</div>
+
+    <p class="stage">(The Swiss Officer leaves. The Director looks at the folder for a moment.)</p>
+
+    <div class="scene">Scene Four</div>
+
+    <p class="stage">(The room of the First and the New Student. They stand side by side looking out of the window.)</p>
+
+    <p class="stage">(Two handcuffed figures are led by the Instructor across the courtyard below. They enter the building.)</p>
+
+    <div class="speaker">The New Student</div>
+    <div class="line">Who are they?</div>
+
+    <div class="speaker">The First Student</div>
+    <div class="line">It doesn't matter.</div>
+
+    <p class="stage">(A pause.)</p>
+
+    <div class="speaker">The New Student</div>
+    <div class="line">What will happen to them?</div>
+
+    <p class="stage">(The First Student looks at the closed door.)</p>
+
+    <div class="speaker">The First Student</div>
+    <div class="line">They will receive an education.</div>
+
+    <div class="scene">Scene Five</div>
+
+    <p class="stage">(The meadow outside the Institute. The lake is still.)</p>
+
+    <p class="stage">(In the centre of the lawn, a guillotine stands in the morning light.)</p>
+
+    <div class="signature">
+      <a href="https://steffenhuck.github.io/">steffen huck</a>
+    </div>
+
+  </div>
+</body>
+</html>
